@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  /* APC Official Colors - Defining them here creates the classes */
+  --color-apc-blue: #0094da;
+  --color-apc-red: #e41e26;
+  --color-apc-green: #009245;
+
+  /* Your existing emerald overrides */
+  --color-emerald-900: #064e3b;
+  --color-emerald-800: #065f46;
+  --color-emerald-700: #047857;
+  --color-emerald-600: #059669;
+  --color-emerald-500: #10b981;
+  --color-campaign-blue: #1b4d89; /* Deep Navy from the header */
+  --color-campaign-yellow: #ffb81c; /* The "Action" yellow for buttons/accents */
+  --color-campaign-bg: #f8fafc;
+}
+
+/* ... keep your :root and body styles below ... */
+
+:root {
+  --bg-soft: #fcfaf8;
+  --text-dark: #111827;
+}
+
+body {
+  background-color: var(--bg-soft);
+  color: var(--text-dark);
+  scroll-behavior: smooth;
+}
