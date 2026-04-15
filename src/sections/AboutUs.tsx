@@ -54,7 +54,7 @@ export default function AboutUs() {
           <div className="order-1 lg:order-2 space-y-6">
             <div className="bg-stone-200 aspect-[4/5] rounded-2xl flex flex-col items-center justify-center overflow-hidden relative shadow-xl">
               <Image
-                src="/Legislative 3.jpg"
+                src="/legislative 3.jpg"
                 alt="Hon. Ibrahim Kunle Olarewaju"
                 fill
                 className="object-cover"
